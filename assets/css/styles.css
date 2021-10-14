@@ -51,6 +51,15 @@ nav.navbar{
 }
 
 /* heading&paragraph */
+h1.h74{
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 119%;
+  /* or 83px */
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
 h1.h70{
   font-weight: normal;
   font-size: 70px;
@@ -59,6 +68,34 @@ h1.h70{
   text-align: center;
   color: #FFFFFF;
   margin-bottom: 35px;
+}
+h2.h64-76{
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 119%;
+  /* identical to box height, or 76px */
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+h2.h64-70{
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 119%;
+  /* identical to box height, or 76px */
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 104px;
+  margin-bottom: 85px;
+  max-width: 562px;
+}
+h6.h18{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+  /* identical to box height */
+  color: #FFFFFF;
+  margin-top: 27px;
 }
 p.p18{
   font-style: normal;
@@ -70,6 +107,23 @@ p.p18{
   text-align: center;
   margin-bottom: 55px;
 }
+p.p16{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 35px;
+  /* or 219% */
+  color: #FFFFFF;
+}
+p.p14{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 142% */
+  color: #ACACAC;
+  margin-top: 14px;
+}
 
 .btn-primary{
   background: linear-gradient(183.97deg, #EEBF27 -20.75%, #D38500 110.6%);
@@ -80,10 +134,9 @@ p.p18{
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  display: flex;
-  align-items: center;
-  text-align: center;
 }
+
+
 
 /* section hero */
 section.hero{
@@ -91,20 +144,35 @@ section.hero{
 }
 section.hero .container{
   padding: 60px 0px 0px 0px;
-  max-width: 1170px;
   text-align: center;
 }
 
 /* section infographic  */
 section.infographic{
   background: linear-gradient(141.67deg, #281951 -1.39%, #261752 87.82%);
+  padding: 165px 0px;
 }
-section.infographic .col{
-  margin-bottom: 61.23px;
+section.infographic .wrapper{
+  margin-bottom: 61px;
 }
+section.infographic .container{
+  text-align: center;
+}
+
 .bg-icon{
   background: linear-gradient(180deg, #836CC7 10%, #341E73 100%);
   border-radius: 8px;
   width: 50px;
   height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* lock  */
+@media (min-width: 1200px){
+  .container{
+    max-width: 1170px;
+  }
 }
