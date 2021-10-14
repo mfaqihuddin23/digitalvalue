@@ -97,7 +97,24 @@ h3.h60-70{
   color: #FFFFFF;
   margin-bottom: 35px;
 }
-
+h4.h36{
+  font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 46px;
+text-align: center;
+color: #FFFFFF;
+margin-top: 32px;
+margin-bottom: 10px;
+}
+h5.h20{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+}
 h6.h18{
   font-style: normal;
   font-weight: bold;
@@ -134,8 +151,20 @@ p.p14{
   color: #ACACAC;
   margin-top: 14px;
 }
-p.pyellow{
+p.p13{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: center;
   color: #FFFFFF;
+  margin-bottom: 17px;
+}
+p.pyellow{
+  color: #D38500;
+  text-align: center;
+  line-height: 21px;
+  margin-bottom: 25px;
 }
 
 .btn-primary{
@@ -147,6 +176,17 @@ p.pyellow{
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
+  margin-left: 0px;
+}
+.btn-outline-primary{
+  color: #FFFFFF;
+  border-color: rgba(255, 255, 255, 0.4);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 8px 12px;
+  margin-left: 0px;
 }
 
 
@@ -198,12 +238,35 @@ section.smart-contract{
   max-width: 595px  ;
 }
 
+
 /* section your plan  */
 section.your-plan{
   padding: 165px 0px;
+  background: linear-gradient(141.67deg, rgba(40, 25, 81, 0.88) -1.39%, rgba(38, 23, 82, 0.88) 87.82%);
 }
 section.your-plan .not-full{
   max-width: 427px;
+  margin-top: 35px;
+  margin-bottom: 120px;
+}
+.plan-price{
+  padding: 2px 2px;
+  background-image: url("../images/planprice.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  /* background: linear-gradient(144deg, rgba(131,108,199,1) 0%, rgba(131,108,199,0) 100%); */
+  border-radius: 15px;
+  text-align: center;
+  max-width: 257px;
+  padding: 26px 34px 35px 34px;
+  margin-bottom: 56px;
+}
+.enterprise{
+  margin-bottom: 0px;
+  background-image: url("../images/enterprise.png");
+}
+.ecosistem{
+  background-image: url("../images/Ecosystem.png");
 }
 
 /* signup field  */
