@@ -19,9 +19,10 @@
   src: url('../fonts/Space_Grotesk/SpaceGrotesk-SemiBold.ttf');
 } */
 body{
-  background-image: url('../images/Illustrations-header.png');
   background-color: #261752;
+  background-image: url('../images/Illustrations-header.png');
   font-family: 'Space-Grotesk';
+  background-position: center top;
   background-repeat: no-repeat;
 }
 /* Navbar  */
@@ -83,11 +84,27 @@ p.p18{
   align-items: center;
   text-align: center;
 }
+
 /* section hero */
 section.hero{
-  padding: 60px 0px 508px 0px;
+  padding: 0px 0px 470px 0px;
 }
 section.hero .container{
+  padding: 60px 0px 0px 0px;
   max-width: 1170px;
   text-align: center;
+}
+
+/* section infographic  */
+section.infographic{
+  background: linear-gradient(141.67deg, #281951 -1.39%, #261752 87.82%);
+}
+section.infographic .col{
+  margin-bottom: 61.23px;
+}
+.bg-icon{
+  background: linear-gradient(180deg, #836CC7 10%, #341E73 100%);
+  border-radius: 8px;
+  width: 50px;
+  height: 50px;
 }
