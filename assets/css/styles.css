@@ -1,0 +1,7 @@
+body{
+  background: linear-gradient(141.67deg, #1A1036 -1.39%, #261752 87.82%);
+}
+
+section.hero{
+  background-image: url("../images/Illustrations-header.png");
+}
