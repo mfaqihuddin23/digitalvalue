@@ -29,16 +29,10 @@ body{
 nav.navbar{
   text-align: center;
 }
-.container-fluid{
-  max-width: 1320px;
-  margin-top: 60px;
-}
-.container-fluid .navbar-brand img{
+.navbar-brand img{
   width: 50%;
 }
-.mid-menu{
-  width: 80%;
-}
+
 .nav-link2 {
   font-style: normal;
   font-weight: normal;
@@ -69,6 +63,14 @@ h1.h70{
   color: #FFFFFF;
   margin-bottom: 35px;
 }
+h2.h64-90{
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 90px;
+  color: #FFFFFF;
+  margin-bottom: 100px;
+  text-align: center;
+}
 h2.h64-76{
   font-weight: normal;
   font-size: 64px;
@@ -87,6 +89,15 @@ h2.h64-70{
   margin-top: 104px;
   margin-bottom: 85px;
   max-width: 562px;
+}
+h3.h60-70{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 59px;
+  line-height: 70px;
+  /* or 117% */
+  color: #FFFFFF;
+  margin-bottom: 35px;
 }
 h6.h18{
   font-style: normal;
@@ -155,8 +166,19 @@ section.infographic{
 section.infographic .wrapper{
   margin-bottom: 61px;
 }
-section.infographic .container{
-  text-align: center;
+
+/* section smart contract */
+section.smart-contract{
+  padding: 165px 0px 167px 0px;
+}
+.slide-canva{
+  margin-bottom: 165px;
+}
+.item-wrap{
+  display: flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top: 55px;
 }
 
 .bg-icon{
@@ -167,6 +189,9 @@ section.infographic .container{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.secret-img{
+  max-width: 595px  ;
 }
 
 
