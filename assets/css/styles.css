@@ -68,8 +68,6 @@ h2.h64-90{
   font-size: 64px;
   line-height: 90px;
   color: #FFFFFF;
-  margin-bottom: 100px;
-  text-align: center;
 }
 h2.h64-76{
   font-weight: normal;
@@ -99,6 +97,7 @@ h3.h60-70{
   color: #FFFFFF;
   margin-bottom: 35px;
 }
+
 h6.h18{
   font-style: normal;
   font-weight: bold;
@@ -124,7 +123,7 @@ p.p16{
   font-size: 16px;
   line-height: 35px;
   /* or 219% */
-  color: #FFFFFF;
+  color: #ACACAC;
 }
 p.p14{
   font-style: normal;
@@ -134,6 +133,9 @@ p.p14{
   /* or 142% */
   color: #ACACAC;
   margin-top: 14px;
+}
+p.pyellow{
+  color: #FFFFFF;
 }
 
 .btn-primary{
@@ -171,7 +173,9 @@ section.infographic .wrapper{
 section.smart-contract{
   padding: 165px 0px 167px 0px;
 }
+
 .slide-canva{
+  margin-top: 100px;
   margin-bottom: 165px;
 }
 .item-wrap{
@@ -192,6 +196,46 @@ section.smart-contract{
 }
 .secret-img{
   max-width: 595px  ;
+}
+
+/* section your plan  */
+section.your-plan{
+  padding: 165px 0px;
+}
+section.your-plan .not-full{
+  max-width: 427px;
+}
+
+/* signup field  */
+.container2{
+  background: linear-gradient(262.73deg, rgba(51, 169, 254, 0.6) -3.4%, rgba(255, 62, 189, 0.6) 100%) ;
+  backdrop-filter: blur(17.4139px);
+  padding: 15px;
+  border-radius: 8px;
+  max-width: 439px;
+}
+input{
+  width: 271px;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: transparent;
+}
+::placeholder{
+  color: white;
+}
+button{
+  border: none    ;
+  margin-left: -20px;
+  width: 149px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #261752;
+  background-color: white;
+  border-radius: 0px 8px 8px 0px;
+  padding: 24px;
 }
 
 
