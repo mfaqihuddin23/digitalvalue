@@ -1,7 +1,93 @@
+/* @font-face {
+  font-family: 'Space_Grotesk';
+  src: url('../fonts/Space_Grotesk/SpaceGrotesk-Bold.ttf');
+}
+@font-face {
+  font-family: 'Space_Grotesk';
+  src: url('../fonts/Space_Grotesk/SpaceGrotesk-Light.ttf');
+}
+@font-face {
+  font-family: 'Space_Grotesk';
+  src: url('../fonts/Space_Grotesk/SpaceGrotesk-Medium.ttf');
+} */
+@font-face {
+  font-family: 'Space-Grotesk';
+  src: url('../fonts/Space_Grotesk/SpaceGrotesk-Regular.ttf');
+}
+/* @font-face {
+  font-family: 'Space_Grotesk';
+  src: url('../fonts/Space_Grotesk/SpaceGrotesk-SemiBold.ttf');
+} */
 body{
-  background: linear-gradient(141.67deg, #1A1036 -1.39%, #261752 87.82%);
+  background-image: url('../images/Illustrations-header.png');
+  background-color: #261752;
+  font-family: 'Space-Grotesk';
+  background-repeat: no-repeat;
+}
+/* Navbar  */
+nav.navbar{
+  text-align: center;
+}
+.container-fluid{
+  max-width: 1320px;
+  margin-top: 60px;
+}
+.container-fluid .navbar-brand img{
+  width: 50%;
+}
+.mid-menu{
+  width: 80%;
+}
+.nav-link2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #8E8E8E;
+  text-decoration: none;
+  margin: 0px 20px;
+  font-family: 'Space_Grotesk';
 }
 
+/* heading&paragraph */
+h1.h70{
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 119%;
+  /* or 83px */
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+p.p18{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  /* identical to box height, or 194% */
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.btn-primary{
+  background: linear-gradient(183.97deg, #EEBF27 -20.75%, #D38500 110.6%);
+  backdrop-filter: blur(17.4139px);
+  border-radius: 5.80465px;;
+  padding: 8px 12px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+/* section hero */
 section.hero{
-  background-image: url("../images/Illustrations-header.png");
+  padding: 60px 0px 508px 0px;
+}
+section.hero .container{
+  max-width: 1170px;
+  text-align: center;
 }
