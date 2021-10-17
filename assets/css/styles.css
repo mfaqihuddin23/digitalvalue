@@ -210,7 +210,9 @@ section.hero .container{
 
 /* section infographic  */
 section.infographic{
-  background: linear-gradient(141.67deg, #281951 -1.39%, #261752 87.82%);
+  /* background: linear-gradient(141.67deg, #281951 -1.39%, #261752 87.82%); */
+  background-image: url("../images/infographic-bg.png");
+  background-position: center top;
   padding: 165px 0px;
 }
 section.infographic .wrapper{
@@ -219,6 +221,8 @@ section.infographic .wrapper{
 
 /* section smart contract */
 section.smart-contract{
+  background-image: url("../images/smart-contract-bg.png");
+  background-position: center top;
   padding: 165px 0px 167px 0px;
 }
 
@@ -250,7 +254,8 @@ section.smart-contract{
 /* section your plan  */
 section.your-plan{
   padding: 165px 0px;
-  background: linear-gradient(141.67deg, rgba(40, 25, 81, 0.88) -1.39%, rgba(38, 23, 82, 0.88) 87.82%);
+  /* background: linear-gradient(141.67deg, rgba(40, 25, 81, 0.88) -1.39%, rgba(38, 23, 82, 0.88) 87.82%); */
+  background-image: url("../images/price-plan-bg.png");
 }
 section.your-plan .not-full{
   max-width: 427px;
@@ -280,6 +285,8 @@ section.your-plan .not-full{
 /* section focuse  */
 section.focuse-screen{
   padding: 165px 0px;
+  background-image: url("../images/focuse-bgsectio.png");
+  background-position: 0.5% 39%;
 }
 section.focuse-screen .h64-90{
   margin-bottom: 89px;
@@ -305,7 +312,8 @@ section.focuse-screen .col-7{
 /* section footer  */
 section.footer{
   padding: 115px 0px 102px 0px;
-  background: #1B0F3D;
+  /* background: #1B0F3D; */
+  background-image: url("../images/footer-bg.png");
 }
 section.footer .logo-foot{
   max-width: 215px;
