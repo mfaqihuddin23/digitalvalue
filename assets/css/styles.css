@@ -124,6 +124,14 @@ h5.h20{
   text-align: center;
   color: #FFFFFF;
 }
+h5.h22{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 35px;
+  /* identical to box height, or 159% */
+  color: #FFFFFF;
+}
 h6.h18{
   font-style: normal;
   font-weight: bold;
@@ -158,6 +166,14 @@ p.p14{
   /* or 142% */
   color: #ACACAC;
   margin-top: 14px;
+}
+p.p14-35{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 35px;
+  /* identical to box height, or 250% */
+  color: rgba(255, 255, 255, 0.7);
 }
 p.p13{
   font-style: normal;
@@ -295,18 +311,20 @@ section.focuse-screen .row{
   margin-bottom: 30px;
 }
 section.focuse-screen .col-5{
-  padding: 30px;
+  padding: 160px 30px 30px 30px;
   height: 250px;
   width: 481px;
-  background-image: url("../images/focuse-bg.png");
+  /* background-image: url("../images/focuse-bg.png"); */
   background-repeat: no-repeat; 
+  background-position: center;
 }
 section.focuse-screen .col-7{
-  padding: 30px;
+  padding: 160px 30px 30px 30px;
   height: 250px;
   width: 670px;
-  background-image: url("../images/focuse-bg-long.png");
+  /* background-image: url("../images/focuse-bg-long.png"); */
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* section footer  */
