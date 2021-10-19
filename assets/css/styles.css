@@ -344,7 +344,7 @@ section.ornamen_{
 
 /* section focuse  */
 section.focuse-screen{
-  padding: 84px 0px 94px;
+  padding: 84px 0px 74px;
   background-image: url("../images/focuse-bgsectio.png");
   background-position: center top;
 }
@@ -352,23 +352,39 @@ section.focuse-screen .h64-90{
   margin-bottom: 51px;
 }
 section.focuse-screen .row{
-  margin-bottom: 30px;
+  margin: 0px 0px;
 }
 section.focuse-screen .col-5{
-  padding: 160px 30px 30px 30px;
-  height: 250px;
-  width: 481px;
+  padding: 121px 14px 14px 14px;
+  height: 192px;
+  width: 327px;
+  margin-bottom: 24px;
   /* background-image: url("../images/focuse-bg.png"); */
   background-repeat: no-repeat; 
   background-position: center;
+  background-size: contain;
 }
 section.focuse-screen .col-7{
-  padding: 160px 30px 30px 30px;
-  height: 250px;
-  width: 670px;
+  padding: 121px 14px 14px 14px;
+  height: 192px;
+  width: 327px;
+  margin-bottom: 24px;
   /* background-image: url("../images/focuse-bg-long.png"); */
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+}
+.bg01{
+  background-image: url('../images/focuse01-mobile.png');
+}
+.bg02{
+  background-image: url('../images/focuse02-mobile.png');
+}
+.bg03{
+  background-image: url('../images/focuse03-mobile.png');
+}
+.bg04{
+  background-image: url('../images/focuse04-mobile.png');
 }
 
 /* section footer  */
