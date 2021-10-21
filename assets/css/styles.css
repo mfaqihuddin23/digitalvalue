@@ -591,6 +591,20 @@ section.focuse-screen .h64-90 {
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  h2.h64-90{
+    text-align: left;
+  }
+
+  section.your-plan .col-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: unset;
+}
+  section.your-plan .not-full {
+    margin-top: 35px;
+    margin-bottom: 120px;
+}
+
   /* section focuse  */
   section.focuse-screen .col-5{
     padding: 160px 30px 30px 30px;
@@ -622,6 +636,10 @@ section.focuse-screen .h64-90 {
   }
   .footer-p{
     max-width: 350px;
+  }
+
+  .col-6 {
+    width: 50%;
   }
   .container{
     max-width: 1170px;
