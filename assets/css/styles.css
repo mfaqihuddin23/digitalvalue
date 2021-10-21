@@ -256,10 +256,6 @@ section.infographic{
   background-repeat: no-repeat;
   padding: 84px 0px 54px 0px;
 }
-section.infographic .row{
-  flex-direction: column;
-  width: 100%;
-}
 .wrapper{
   margin-bottom: 34px;
   display: flex;
@@ -285,10 +281,6 @@ section.smart-contract{
   background-image: url("../images/smart-contract-bg.png");
   background-position: center top;
   padding: 30px 0px 94px 0px;
-}
-section.smart-contract .row{
-  display: flex;
-  flex-direction: column-reverse;
 }
 
 .slide-canva{
