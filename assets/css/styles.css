@@ -144,8 +144,8 @@ h5.h20{
 h5.h22{
   font-style: normal;
   font-weight: 600;
-  font-size: 22px;
-  line-height: 35px;
+  font-size: 24px;
+  line-height: 31px;
   /* identical to box height, or 159% */
   color: #FFFFFF;
 }
@@ -186,8 +186,8 @@ p.p14{
 p.p14-35{
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 35px;
+  font-size: 12px;
+  line-height: 22px;
   /* identical to box height, or 250% */
   color: rgba(255, 255, 255, 0.7);
 }
@@ -376,7 +376,7 @@ section.focuse-screen .row{
   align-items: center;
 }
 section.focuse-screen .col-5{
-  padding: 121px 14px 14px 14px;
+  padding: 100px 14px 14px 14px;
   height: 192px;
   width: 327px;
   margin-bottom: 24px;
@@ -386,7 +386,7 @@ section.focuse-screen .col-5{
   background-size: contain;
 }
 section.focuse-screen .col-7{
-  padding: 121px 14px 14px 14px;
+  padding: 100px 14px 14px 14px;
   height: 192px;
   width: 327px;
   margin-bottom: 24px;
@@ -530,17 +530,36 @@ button{
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   /* font  */
+  h2.h64-90{
+    font-size: 64px;
+    line-height: 90px;
+    /* identical to box height, or 141% */
+    text-align: center;
+  }
   h4.h34{
     font-weight: 500;
     font-size: 20px;
     line-height: 34px;
   }
+  h5.h22{
+    font-size: 22px;
+    line-height: 35px;
+  }
   p.p16{
     font-size: 16px;
     line-height: 20px;
   }
+  p.p14-35{
+    font-size: 14px;
+    line-height: 35px;
+  }
 
-
+  section.focuse-screen {
+    padding: 177px 0px 165px;
+}
+section.focuse-screen .h64-90 {
+  margin-bottom: 89px;
+}
 
   /* section footer  */
   section.footer{
