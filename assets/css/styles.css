@@ -198,7 +198,7 @@ p.p13{
   line-height: 23px;
   text-align: center;
   color: #FFFFFF;
-  margin-bottom: 39px;
+  margin-bottom: 14px;
 }
 p.pyellow{
   color: #D38500;
@@ -323,19 +323,22 @@ section.your-plan .not-full{
   margin-bottom: 44px;
 }
 .plan-price{
-  padding: 2px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 379px;
   background-image: url("../images/planprice.png");
   background-repeat: no-repeat;
   background-position: center top;
   /* background: linear-gradient(144deg, rgba(131,108,199,1) 0%, rgba(131,108,199,0) 100%); */
   border-radius: 15px;
-  text-align: center;
   max-width: 100%;
-  padding: 33px 43px 60px 43px;
+  padding: 26px 43px 35px 43px;
   margin-bottom: 34px;
 }
 .enterprise{
-  margin-bottom: 34px;
   background-image: url("../images/planprice.png");
 }
 .ecosistem{
