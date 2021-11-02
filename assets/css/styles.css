@@ -235,7 +235,6 @@ p.pyellow{
 /* section hero */
 section.hero{
   padding: 0px 0px 0px 0px;
-  background-image: url('../images/bg-header-mobile.png');
   background-position: center top;
   background-repeat: no-repeat;
 }
@@ -549,6 +548,18 @@ button{
     line-height: 35px;
   }
 
+  section.hero{
+    background-image: url('../images/Illustrations-header.png');
+    background-position: top center;
+    padding: 0px 0px 600px 0px;
+  }
+  section.hero .container{
+    padding: 60px 0px 0px 0px;
+  }
+  section.hero .img-mobile img{
+    display: none;
+  }
+
   section.focuse-screen {
     padding: 177px 0px 165px;
 }
@@ -558,7 +569,11 @@ section.focuse-screen .h64-90 {
 
   /* section footer  */
   section.footer{
-    padding: 115px 0px 102px 0px;
+    padding: 115px 0px 30px 0px;
+    background-position: top center;
+  }
+  section.footer .container {
+    max-width: 1320px;
   }
   section.footer .row{
     flex-wrap: unset;
