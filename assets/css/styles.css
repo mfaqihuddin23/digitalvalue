@@ -372,7 +372,7 @@ section.focuse-screen .row{
   align-items: center;
 }
 section.focuse-screen .col-5{
-  padding: 100px 14px 14px 14px;
+  /* padding: 100px 14px 14px 14px; */
   height: 192px;
   width: 327px;
   margin-bottom: 24px;
@@ -382,7 +382,7 @@ section.focuse-screen .col-5{
   background-size: contain;
 }
 section.focuse-screen .col-7{
-  padding: 100px 14px 14px 14px;
+  /* padding: 100px 14px 14px 14px; */
   height: 192px;
   width: 327px;
   margin-bottom: 24px;
@@ -402,6 +402,25 @@ section.focuse-screen .col-7{
 }
 .bg04{
   background-image: url('../images/focuse04-mobile.png');
+}
+.img-box{
+  padding: 160px 30px 30px;
+  height: 250px;
+  overflow: hidden;
+  /* background-position: center center; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  box-shadow: inset 50px -116px 170px -60px #7E67C2;
+}
+.text-box{
+  /* position: absolute; */
+  /* bottom: 20px; */
+}
+.bg-purple{
+  padding: 2px;
+  border-radius: 15px;
+  background-color: #836CC7;
 }
 
 /* section footer  */
@@ -719,12 +738,12 @@ section.focuse-screen .h64-90 {
 
   /* section focuse  */
   section.focuse-screen .col-5{
-    padding: 160px 30px 30px 30px;
+    /* padding: 160px 30px 30px 30px; */
     height: 250px;
     width: 470px;
   }
   section.focuse-screen .col-7{
-    padding: 160px 30px 30px 30px;
+    /* padding: 160px 30px 30px 30px; */
     height: 250px;
     width: 670px;
   }
