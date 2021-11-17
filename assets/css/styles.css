@@ -630,7 +630,7 @@ nav.navbar{
   section.hero{
     background-image: url('../images/Illustrations-header.png');
     background-position: top center;
-    padding: 0px 0px 490px 0px;
+    padding: 0px 0px 190px 0px;
   }
   section.hero .container{
     padding: 41px 0px 0px 0px;
@@ -648,8 +648,8 @@ nav.navbar{
   /* section infographic  */
 section.infographic{
   /* background: linear-gradient(141.67deg, #281951 -1.39%, #261752 87.82%); */
-  background-image: url("../images/infographic-bg.png");
-  background-position: 55% -9%;
+  background-image: url("../images/infographic-bg2.png");
+  background-position: 55% 16%;
   background-repeat: repeat-y;
   padding: 175px 0px 203px 0px;
 }
@@ -662,7 +662,7 @@ section.smart-contract{
 
 /* section your plan  */
 section.your-plan{
-  padding: 200px 0px;
+  padding: 200px 0px 80px 0px;
   /* background: linear-gradient(141.67deg, rgba(40, 25, 81, 0.88) -1.39%, rgba(38, 23, 82, 0.88) 87.82%); */
   background-position: center top;
 }
